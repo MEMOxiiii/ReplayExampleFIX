@@ -1,0 +1,20 @@
+---
+name: GameReplay
+version: 1.0.0
+api: 5.0.0
+author: Jibix
+main: Jibix\ReplayExample\Main
+permissions:
+  gamereplay.command:
+    default: true
+  gamereplay.command.record:
+    default: true
+  gamereplay.command.stop:
+    default: true
+  gamereplay.command.world:
+    default: true
+  gamereplay.search:
+    default: true
+  gamereplay.delete:
+    default: true
+...
